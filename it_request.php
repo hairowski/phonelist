@@ -44,8 +44,8 @@
 				$msg = $msg."\n\n -------------------------- DESCRIPTION --------------------------- \n";			
 				if (isset($_POST['desc']) && $_POST['desc']!=''){
 					$msg = $msg . "\n".$_POST['desc']."\n";
-					//echo $msg;
-					mail("enricnadal+vrysgiz1gtw9ynq1r1uv@boards.trello.com",$_POST['subject']." @enricserra@enricnadal@danlarsson",$msg,"From:administrator@sunhotels.net");		
+					echo $msg;
+					//mail();		
 					echo'<p>Your request has been sent. We will notify you when it\'s done. Thanks!</p>';
 				}else{
 					echo $error_string;				
