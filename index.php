@@ -31,13 +31,6 @@ switch ($section){
 			echo'
 		</section>';
 		break;
-	case "bookings":
-		echo'
-		<section id="bookings">';
-			include ("booking.php");
-			echo'	
-		</section>';
-		break;
 	case "tutorials":
 		echo'
 		<section id="tutorials">';
