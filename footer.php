@@ -2,7 +2,7 @@
    echo' 
    
 	<footer>		
-		<p>Copyright &copy; 2017 Sunhotels</p>
+		<p>Copyright &copy; 2017 FooBar</p>
 		<p>All rights reserved.</p>
 	</footer>
 	</body>
