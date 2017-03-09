@@ -26,7 +26,7 @@ function ajaxFunction() {
 	}
 }
 
-//Función para mandar llamar nuestra página de manera asíncrona
+//FunciÃ³n para mandar llamar nuestra pÃ¡gina de manera asÃ­ncrona
 
 function Refresh(_pagina,capa) {
 	var ajax;
@@ -42,7 +42,7 @@ function Refresh(_pagina,capa) {
 	ajax.send(null);
 }
 
-//Función para cambiar el estado alternativamente 
+//FunciÃ³n para cambiar el estado alternativamente 
 
 function toggle(id){
     var capa = document.getElementById(id);
