@@ -8,7 +8,7 @@
   <!-- <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script> -->
   <!-- <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerwithlabel/src/markerwithlabel.js"></script> -->
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJokBrTkZUeAHfqFRBL2vVkapR4OemqfU&callback=initMap" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=foobar&callback=initMap" async defer></script>
           
   <style type="text/css">
   body, html {
