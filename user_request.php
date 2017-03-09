@@ -23,7 +23,7 @@
 					<!--<label for="req">Applicant</label><input type="text" name="req" id="req" placeholder="who makes the petition" required>-->';
 					loadUsers("Applicant","req");					
 					echo'
-					<label for="name">Name</label><input type="text" name="name" id="name" placeholder="who joins SunHotels?" required>
+					<label for="name">Name</label><input type="text" name="name" id="name" placeholder="who joins the company?" required>
 					<label for="surname">Surname</label><input type="text" name="surname" id="surname" required>					
 					';
 					loadDepartments();
@@ -131,9 +131,9 @@
 			//echo $msg;
 	
 			if (isset($_POST['req']) && $_POST['req']!='')
-				mail("support@sunhotels.com","Sunhotels User Request / ".$user,$msg,"From:".$_POST['req']."");		
+				mail("support@qwerty.com","User Request / ".$user,$msg,"From:".$_POST['req']."");		
 			else
-				mail("sunhotelstest@gmail.com","Sunhotels User Request / ".$user,$msg,"From:noreply@sunhotels.com");
+				mail("test@qwerty.com","User Request / ".$user,$msg,"From:noreply@qwerty.com");
 			echo'<p>Your request has been sent.<br />
 				 We will notify you when it\'s done.<br />
 				 Thanks!</p>
