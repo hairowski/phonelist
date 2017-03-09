@@ -9,8 +9,8 @@ if($date_add>='07:00:00' and $date_add<='19:00:00') {
 			
 
 $useragent="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1";
-$url = 'https://secure.sunhotels.net/maker/inlogged.asp';
-$params = 'loginname=179198&password=32123';
+$url = 'https://.../inlogged.asp';
+$params = 'loginname=username&password=password';
 
 
 
@@ -26,11 +26,11 @@ $fields_string = '';
 foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
 rtrim($fields_string,'&');
 
-$_SERVER['REMOTE_ADDR']='https://secure.sunhotels.net/maker/';
+$_SERVER['REMOTE_ADDR']='https://...';
 $ch = curl_init() or die(curl_error());
 curl_setopt($ch, CURLOPT_REFERER, "http://www.google.com");
 curl_setopt($ch, CURLOPT_USERAGENT, $useragent); 
-curl_setopt($ch, CURLOPT_REFERER, 'https://secure.sunhotels.net');
+curl_setopt($ch, CURLOPT_REFERER, 'https://...');
 curl_setopt($ch, CURLOPT_HEADER, true);
 curl_setopt($ch, CURLOPT_POST,count($fields));
 curl_setopt($ch, CURLOPT_POSTFIELDS,$fields_string);
@@ -82,11 +82,11 @@ ORDER BY B.dateAdded DESC"),
 rtrim($fields_string,'&');
 		
 // SQL
-$url = 'https://secure.sunhotels.net/maker/sql.asp';
+$url = 'https://.../sql.asp';
 $ch = curl_init() or die(curl_error());
 curl_setopt($ch, CURLOPT_REFERER, "http://www.google.com");
 curl_setopt($ch, CURLOPT_USERAGENT, $useragent); 
-curl_setopt($ch, CURLOPT_REFERER, 'https://secure.sunhotels.net');
+curl_setopt($ch, CURLOPT_REFERER, 'https://...t');
 curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_POST,count($fields));
 curl_setopt($ch, CURLOPT_POSTFIELDS,$fields_string);
