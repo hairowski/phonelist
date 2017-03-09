@@ -135,9 +135,9 @@
 			echo $msg; exit;
 
 			if (isset($_POST['req']) && $_POST['req']!='')
-				mail("support@sunhotels.com","Sunhotels User Disable / ".$user,$msg,"From:".$_POST['req']."");		
+				mail("support@qwerty.com","User Disable / ".$user,$msg,"From:".$_POST['req']."");		
 			else
-				mail("enric.serra@sunhotels.com","Sunhotels User Disable / ".$user,$msg,"From:noreply@sunhotels.com");
+				mail("ese@qwerty.com","User Disable / ".$user,$msg,"From:noreply@qwerty.com");
 			echo'<p>Your request has been sent.<br />
 				 We will notify you when it\'s done.<br />
 				 Thanks!</p>
